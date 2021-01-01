@@ -1,0 +1,18 @@
+:root {
+  filter: invert(100%);
+}
+
+body {
+  padding: 1rem;
+  margin: 0;
+  background: #ddd;
+}
+
+header, section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(133, 133, 15);
+}
