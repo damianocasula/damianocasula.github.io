@@ -6,6 +6,7 @@ body {
   padding: 1rem;
   margin: 0;
   background: #ddd;
+  font-family: Avenir, sans-serif;
 }
 
 header, section {
