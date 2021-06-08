@@ -17,3 +17,44 @@ header, section {
 a {
   color: rgb(133, 133, 15);
 }
+
+#page {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "projects works"
+    "about about";
+}
+
+@media screen and (max-width: 768px) {
+  #page {
+    grid-template-areas: 
+    "header header"
+    "projects projects"
+    "works works"
+    "about about";
+  }
+
+  #header, #projects, #works, #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: .25rem 1rem;
+  }
+}
+
+#header {
+  grid-area: header;
+}
+
+#projects {
+  grid-area: projects;
+}
+
+#works {
+  grid-area: works;
+}
+
+#about {
+  grid-area: about;
+}
