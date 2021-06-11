@@ -25,6 +25,8 @@ a {
     "header header"
     "projects works"
     "about about";
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
