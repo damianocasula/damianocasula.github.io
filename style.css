@@ -7,6 +7,7 @@ body {
   margin: 0;
   background: #ddd;
   font-family: Avenir, sans-serif;
+  font-size: 1.125em;
 }
 
 header, section {
