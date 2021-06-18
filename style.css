@@ -37,6 +37,10 @@ a.btn {
   color: #ddd;
 }
 
+a.lk {
+  color: rgb(0, 119, 128);
+}
+
 ul {
   padding: 0;
   list-style-type: none;
