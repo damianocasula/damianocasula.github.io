@@ -72,7 +72,7 @@ ul.grid {
     "header header"
     "projects works"
     "about about";
-  max-width: 1200px;
+  max-width: 1000px;
   gap: 1rem;
   margin: 0 auto;
 }
@@ -108,4 +108,5 @@ ul.grid {
 
 #about {
   grid-area: about;
+  text-align: justify;
 }
