@@ -64,6 +64,10 @@ ul.grid {
  gap: .5rem;
 }
 
+.emoji {
+  filter: invert(100%);
+}
+
 #page {
   display: grid;
   grid-template-columns: 1fr 1fr;
