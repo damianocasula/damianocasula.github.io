@@ -4,4 +4,4 @@ This is the code for my personal website.
 
 ## Todos
 
-- [ ] Use grid for projects and works
+- [x] Use grid for projects and works
