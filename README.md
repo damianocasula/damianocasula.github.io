@@ -6,3 +6,4 @@ This is the code for my personal website.
 
 - [x] Use grid for projects and works
 - [x] Emojis! ✨
+- [ ] Contact me form
