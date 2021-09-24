@@ -73,7 +73,7 @@ ul.grid {
   grid-template-rows: 1fr min-content;
   grid-template-areas:
     "header header"
-    "projects works"
+    "projects socials"
     "about about";
   max-width: 1000px;
   gap: 1.5rem;
@@ -85,11 +85,11 @@ ul.grid {
     grid-template-areas: 
     "header header"
     "projects projects"
-    "works works"
+    "socials socials"
     "about about";
   }
 
-  #header, #projects, #works, #about {
+  #header, #projects, #socials, #about {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -105,8 +105,8 @@ ul.grid {
   grid-area: projects;
 }
 
-#works {
-  grid-area: works;
+#socials {
+  grid-area: socials;
 }
 
 #about {
